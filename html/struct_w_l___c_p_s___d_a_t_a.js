@@ -1,0 +1,25 @@
+var struct_w_l___c_p_s___d_a_t_a =
+[
+    [ "avg_count", "struct_w_l___c_p_s___d_a_t_a.html#a4ba1e92a3d96b8624a3d68b5d89aa179", null ],
+    [ "avg_count_max", "struct_w_l___c_p_s___d_a_t_a.html#adfa3719aaed489266297f153622c1c6e", null ],
+    [ "avg_current", "struct_w_l___c_p_s___d_a_t_a.html#a49a5097ee947e5751c9aa47dabc44d8f", null ],
+    [ "current", "struct_w_l___c_p_s___d_a_t_a.html#aaad5615d233044464c3661481a6760cd", null ],
+    [ "current_array", "struct_w_l___c_p_s___d_a_t_a.html#ae29592cd403bf2fb8576d3030b95783a", null ],
+    [ "current_constant", "struct_w_l___c_p_s___d_a_t_a.html#a05ecc7c779f6cb393f683da52adb70b0", null ],
+    [ "current_limit", "struct_w_l___c_p_s___d_a_t_a.html#abcf253e05c3083b3e387cbbe654882bc", null ],
+    [ "max_current", "struct_w_l___c_p_s___d_a_t_a.html#ac1169cb94b10a0fe675e0808d22df00d", null ],
+    [ "new_current_flag", "struct_w_l___c_p_s___d_a_t_a.html#a7d9c2285ed0c6e2ca53a6e5550dd85e8", null ],
+    [ "new_voltage_flag", "struct_w_l___c_p_s___d_a_t_a.html#a7430a2158b97bfb3a5e3d9d806d9799d", null ],
+    [ "over_current_count", "struct_w_l___c_p_s___d_a_t_a.html#a34c17016d682c40d36d7680b8cef108c", null ],
+    [ "overvoltage_count", "struct_w_l___c_p_s___d_a_t_a.html#a72cb957a54fd88f6135ccc17c3781c1f", null ],
+    [ "spi_sent_flag", "struct_w_l___c_p_s___d_a_t_a.html#ae75d3a4348aa13cfe9658ecb00e6a976", null ],
+    [ "spi_write_complete_flag", "struct_w_l___c_p_s___d_a_t_a.html#aab057c2bf2b67e6362490526de1113be", null ],
+    [ "state", "struct_w_l___c_p_s___d_a_t_a.html#a2da0dfda816627fd1e19a14574bb4803", null ],
+    [ "tick", "struct_w_l___c_p_s___d_a_t_a.html#a9bd8f483b6df66ebb59f5d8cbbec7b40", null ],
+    [ "turn_off_count", "struct_w_l___c_p_s___d_a_t_a.html#ae6c55596dd221a6f12d5560f30a25752", null ],
+    [ "upper_current_limit", "struct_w_l___c_p_s___d_a_t_a.html#a5d7058ff5f0bd68c05161b618097592a", null ],
+    [ "v_adj", "struct_w_l___c_p_s___d_a_t_a.html#ae4ff9b17a647c72d6f50867b08defef8", null ],
+    [ "volt_constant", "struct_w_l___c_p_s___d_a_t_a.html#a92e856a13addb1e8406062e16499b6c7", null ],
+    [ "voltage", "struct_w_l___c_p_s___d_a_t_a.html#a8e84682150888ae78b9a41959ca02c7b", null ],
+    [ "voltage_limit", "struct_w_l___c_p_s___d_a_t_a.html#a0b10fed5be156d802ff460d4bfb03d3c", null ]
+];

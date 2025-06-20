@@ -1,0 +1,27 @@
+digraph "HVPS_Tasks"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node675 [label="HVPS_Tasks",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node675 -> Node676 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node676 [label="DRV_SPI_Open",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__adc_8c.html#a110a453ace13e7dc1c130963bcfad104"];
+  Node675 -> Node677 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node677 [label="Clear_Status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a3a9ea2a910b701830e828a9e6d53b636"];
+  Node675 -> Node678 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node678 [label="DRV_SPI_BufferAddWrite2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__adc_8c.html#a3c731a3bbf31461a12d6a7a1700a9005"];
+  Node675 -> Node679 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node679 [label="SPI_4_EventHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hvps_8c.html#ab2766ea57f0a808ab297cac75bad2835"];
+  Node675 -> Node680 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node680 [label="PLIB_PORTS_PinClear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__hvps_8c.html#a119ae9f68294861f5eecb19de9743c43"];
+  Node675 -> Node681 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node681 [label="PLIB_PORTS_PinSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__hvps_8c.html#ae4c8fd3b4e721cc80950df1d49cada58"];
+  Node675 -> Node682 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node682 [label="hvps_61zqendz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__hvps_8c.html#a549023b62d578866ed04778da5dde280"];
+  Node682 -> Node683 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node683 [label="qqpopulate_array_fcn\l_ptrQQ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__hvps_8c.html#a4ad6fa1bb94fc1c3ac2dc30925106081"];
+  Node682 -> Node684 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node684 [label="qqqupload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__hvps_8c.html#a109761d7f84a96b5606e507bace276b5"];
+  Node682 -> Node685 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node685 [label="qqqbitmapreset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__hvps_8c.html#a5688fceaed93ba591e78ee15ccb0187f"];
+}

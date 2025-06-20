@@ -1,0 +1,45 @@
+digraph "Clear_Status"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node34 [label="Clear_Status",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node34 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="COMMAND_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt___u_s_b_8c.html#a18253442833a6f9dcc1031492524596c"];
+  Node35 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="APP_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__wl__sps_8c.html#a859aee46b660cfee47cfd45ce08f6862"];
+  Node36 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+  Node34 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="Execute_Auto_Protocol_A",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$commands_8c.html#a03b9bfc92c4795c4d185a80c5137c68d"];
+  Node38 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="Execute_Protocol_A",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$commands_8c.html#a5931359f2a322bcc2dec75d32ac6e432"];
+  Node39 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="execute_switches",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$switches_8c.html#aed0a5a04947c339791d9c4ff3c430ed3"];
+  Node40 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="SWITCH_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$switches_8c.html#a0ffce63133343b1dfc8e67d0f6d13780"];
+  Node41 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="HVPS_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__timers_8c.html#aba73277a0b1daf2d17ac0b81c94a8b6a"];
+  Node42 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="HVPS_Test_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hvps__test_8h.html#aac73f1185c0bf4ac7c58ed7617339f88"];
+  Node43 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="SYSTEM_OKAY_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$system__okay_8c.html#a8453de21018efd706e7eb817defceb65"];
+  Node44 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="Test_Manchester",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$man_8c.html#a58180a4bddf2eb82b49ce86257a95346"];
+  Node45 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="MAN_PROCESS_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$man_8c.html#a48e348dab43f9719d4c7f62dcdc91ccf"];
+  Node46 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="MAN_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$man_8c.html#aee1e768706fd21921cca7b874ff4f232"];
+  Node47 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="ValidateComm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$commmodule_8c.html#a764430fc16209afb9056738eb23b69c5"];
+  Node48 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 [label="COMM_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt___u_s_b_8c.html#a58032003b728b9659d8ec40e2b565169"];
+  Node49 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

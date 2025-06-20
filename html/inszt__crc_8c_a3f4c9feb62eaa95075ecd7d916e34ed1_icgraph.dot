@@ -1,0 +1,30 @@
+digraph "Calc_CRC"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="Calc_CRC",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Calc_CRC_Array",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__crc_8c.html#ad52062411721def378a9750434efabe7"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="COMMAND_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a18253442833a6f9dcc1031492524596c"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="APP_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a859aee46b660cfee47cfd45ce08f6862"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+  Node6 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Prepare_Return_A",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$statusst_8h.html#a0e9c19489da0b2f35029d786831aba98"];
+  Node6 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Prepare_Return_B",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$statusst_8h.html#ab840ab8e52cac36008d83ff62f7124ca"];
+  Node5 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Calc_CRC_Uplink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__crc_8c.html#a3986e22036b3b68348435b4d7e381429"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Test_Manchester",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__man_8c.html#a58180a4bddf2eb82b49ce86257a95346"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="MAN_PROCESS_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__man_8c.html#a48e348dab43f9719d4c7f62dcdc91ccf"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="MAN_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$man_8h.html#aee1e768706fd21921cca7b874ff4f232"];
+  Node5 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="FSK_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__fsk_8c.html#a86e42784b2bc0d852d28898161103760"];
+  Node16 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

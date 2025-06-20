@@ -1,0 +1,11 @@
+digraph "SPI_2_EventHandler"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1696 [label="SPI_2_EventHandler",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1696 -> Node1697 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1697 [label="Adjust_WL_CPS_Voltage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wl__cps_8h.html#a0ccad27b77873391f134d0611447793d"];
+  Node1697 -> Node1698 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1698 [label="WL_CPS_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wl__cps_8h.html#aaad98aba229bad2faf7cb6cee2b5a2f5"];
+}

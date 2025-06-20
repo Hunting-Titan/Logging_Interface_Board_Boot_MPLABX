@@ -1,0 +1,13 @@
+<map id="COMM_Tasks" name="COMM_Tasks">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,111,133"/>
+<area shape="rect" id="node2" href="$commmodule_8c.html#a764430fc16209afb9056738eb23b69c5" title=" " alt="" coords="159,107,265,133"/>
+<area shape="rect" id="node3" href="$statusst_8c.html#a3a9ea2a910b701830e828a9e6d53b636" title=" " alt="" coords="329,5,426,32"/>
+<area shape="rect" id="node4" href="$fifo_8c.html#a559d3b106856214e0f068c4c8c186055" title=" " alt="" coords="342,56,413,83"/>
+<area shape="rect" id="node5" href="$statusst_8c.html#a0e9c19489da0b2f35029d786831aba98" title=" " alt="" coords="313,107,441,133"/>
+<area shape="rect" id="node10" href="$statusst_8c.html#a0fed74420f2d99f6d100fd94494b38f6" title=" " alt="" coords="334,157,421,184"/>
+<area shape="rect" id="node11" href="$commands_8c.html#adf874595e4b75f7e8cd79080a70161aa" title=" " alt="" coords="319,208,436,235"/>
+<area shape="rect" id="node6" href="$crc_8c.html#a72cd12fcd632c9889ffb63f5dba8c397" title=" " alt="" coords="489,81,609,108"/>
+<area shape="rect" id="node9" href="$fifo_8c.html#aa509be4f95c11aac886b98718a15e849" title=" " alt="" coords="514,132,585,159"/>
+<area shape="rect" id="node7" href="$crc_8c.html#a3f4c9feb62eaa95075ecd7d916e34ed1" title=" " alt="" coords="681,56,764,83"/>
+<area shape="rect" id="node8" href="$crc_8c.html#aab7639fa6129bf18bb19add215d334b9" title=" " alt="" coords="657,107,788,133"/>
+</map>

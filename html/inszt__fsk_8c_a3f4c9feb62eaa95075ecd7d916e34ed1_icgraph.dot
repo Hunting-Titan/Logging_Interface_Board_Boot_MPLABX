@@ -1,0 +1,13 @@
+digraph "Calc_CRC"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node13 [label="Calc_CRC",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="FSK_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__fsk_8c.html#a86e42784b2bc0d852d28898161103760"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="APP_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a859aee46b660cfee47cfd45ce08f6862"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+}

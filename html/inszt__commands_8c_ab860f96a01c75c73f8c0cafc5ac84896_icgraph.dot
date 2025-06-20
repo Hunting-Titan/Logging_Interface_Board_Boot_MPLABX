@@ -1,0 +1,9 @@
+digraph "qqqqinitialise"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1862 [label="qqqqinitialise",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1862 -> Node1863 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1863 [label="commands_65zqqzqz1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a779955162af4a2e04e70a91183276674"];
+}

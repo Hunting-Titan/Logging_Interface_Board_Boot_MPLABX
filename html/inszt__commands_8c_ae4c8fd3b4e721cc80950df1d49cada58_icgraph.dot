@@ -1,0 +1,18 @@
+digraph "PLIB_PORTS_PinSet"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1303 [label="PLIB_PORTS_PinSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1303 -> Node1304 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1304 [label="Execute_Auto_Protocol_A",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a03b9bfc92c4795c4d185a80c5137c68d"];
+  Node1304 -> Node1305 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1305 [label="COMMAND_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a18253442833a6f9dcc1031492524596c"];
+  Node1305 -> Node1306 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1306 [label="APP_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a859aee46b660cfee47cfd45ce08f6862"];
+  Node1306 -> Node1307 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1307 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+  Node1303 -> Node1308 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1308 [label="Execute_Protocol_A",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a5931359f2a322bcc2dec75d32ac6e432"];
+  Node1308 -> Node1305 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

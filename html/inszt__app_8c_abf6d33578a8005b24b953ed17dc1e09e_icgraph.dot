@@ -1,0 +1,15 @@
+digraph "Set_WL_SPS_CurrentLimit"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1831 [label="Set_WL_SPS_CurrentLimit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1831 -> Node1832 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1832 [label="Execute_Auto_Protocol_A",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$commands_8c.html#a03b9bfc92c4795c4d185a80c5137c68d"];
+  Node1832 -> Node1833 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1833 [label="COMMAND_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt___u_s_b_8c.html#a18253442833a6f9dcc1031492524596c"];
+  Node1833 -> Node1834 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1834 [label="APP_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__wl__sps_8c.html#a859aee46b660cfee47cfd45ce08f6862"];
+  Node1834 -> Node1835 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1835 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+}

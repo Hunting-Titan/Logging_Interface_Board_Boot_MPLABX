@@ -1,0 +1,21 @@
+digraph "Fifo_Get"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40 [label="Fifo_Get",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="USB_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_s_b_8h.html#a9a0d9bb70d35b7b2997594a56b7db71d"];
+  Node40 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="ValidateComm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commmodule_8c.html#a764430fc16209afb9056738eb23b69c5"];
+  Node42 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="COMM_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commmodule_8c.html#a58032003b728b9659d8ec40e2b565169"];
+  Node43 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="APP_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a859aee46b660cfee47cfd45ce08f6862"];
+  Node44 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+  Node40 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="WriteUART",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt___u_a_r_t_8c.html#a04847dad9f416306723e78f9a048bfd1"];
+  Node46 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="UART_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_a_r_t_8h.html#aab7c894c540f5df89f5dc640f0379953"];
+}

@@ -1,0 +1,15 @@
+digraph "PLIB_PORTS_PinClear"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1088 [label="PLIB_PORTS_PinClear",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1088 -> Node1089 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1089 [label="Check_WL_CPS_Over_Current",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__wl__cps_8c.html#ab7857a7c2e399bd83a1ec3021a30fe90"];
+  Node1089 -> Node1090 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1090 [label="WL_CPS_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$wl__cps_8h.html#aaad98aba229bad2faf7cb6cee2b5a2f5"];
+  Node1088 -> Node1091 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1091 [label="Init_WL_CPS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__wl__cps_8c.html#af1bd913adbd7b4e5347233d51d153903"];
+  Node1091 -> Node1090 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1088 -> Node1090 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

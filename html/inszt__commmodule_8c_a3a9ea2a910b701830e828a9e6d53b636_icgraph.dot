@@ -1,0 +1,15 @@
+digraph "Clear_Status"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="Clear_Status",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ValidateComm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commmodule_8c.html#a764430fc16209afb9056738eb23b69c5"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="COMM_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commmodule_8c.html#a58032003b728b9659d8ec40e2b565169"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="APP_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a859aee46b660cfee47cfd45ce08f6862"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+}

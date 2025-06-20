@@ -1,0 +1,15 @@
+digraph "PLIB_USART_TransmitterByteSend"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1622 [label="PLIB_USART_TransmitterByteSend",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1622 -> Node1623 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1623 [label="WriteUART",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_a_r_t_8c.html#a04847dad9f416306723e78f9a048bfd1"];
+  Node1623 -> Node1624 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1624 [label="UART_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_a_r_t_8c.html#aab7c894c540f5df89f5dc640f0379953"];
+  Node1624 -> Node1625 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1625 [label="APP_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__wl__sps_8c.html#a859aee46b660cfee47cfd45ce08f6862"];
+  Node1625 -> Node1626 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1626 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+}

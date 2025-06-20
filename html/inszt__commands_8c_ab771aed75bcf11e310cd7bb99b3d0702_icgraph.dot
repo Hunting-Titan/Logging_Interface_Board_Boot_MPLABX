@@ -1,0 +1,13 @@
+digraph "Execute_System"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node779 [label="Execute_System",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node779 -> Node780 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node780 [label="COMMAND_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a18253442833a6f9dcc1031492524596c"];
+  Node780 -> Node781 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node781 [label="APP_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a859aee46b660cfee47cfd45ce08f6862"];
+  Node781 -> Node782 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node782 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+}

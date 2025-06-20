@@ -1,0 +1,45 @@
+digraph "APP_Tasks"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="APP_Tasks",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="ADC_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$adc_8c.html#a605fe6092855d752d3337cd8a7929d18"];
+  Node19 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="SWITCH_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a0ffce63133343b1dfc8e67d0f6d13780"];
+  Node19 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="COMM_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$commmodule_8c.html#a58032003b728b9659d8ec40e2b565169"];
+  Node19 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="COMMAND_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$commands_8c.html#a18253442833a6f9dcc1031492524596c"];
+  Node19 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="FSK_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fsk_8c.html#a86e42784b2bc0d852d28898161103760"];
+  Node19 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="MAN_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#aee1e768706fd21921cca7b874ff4f232"];
+  Node19 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="WL_CPS_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#aaad98aba229bad2faf7cb6cee2b5a2f5"];
+  Node19 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="WL_SPS_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a549aa5a98dca8454731e095fc9050751"];
+  Node19 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="HVPS_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hvps_8c.html#aba73277a0b1daf2d17ac0b81c94a8b6a"];
+  Node19 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="TIMER_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a4c883f65a4e2c55a125dd63d824e89e7"];
+  Node19 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="USB_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a9a0d9bb70d35b7b2997594a56b7db71d"];
+  Node19 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="UART_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#aab7c894c540f5df89f5dc640f0379953"];
+  Node19 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="CF_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cf_8c.html#abba185f96de27c3b22710cfda615f191"];
+  Node19 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="HVPS_Test_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hvps__test_8c.html#aac73f1185c0bf4ac7c58ed7617339f88"];
+  Node19 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="SYSTEM_OKAY_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a8453de21018efd706e7eb817defceb65"];
+  Node19 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="app_64zqendz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a145645389635ff2c9f31c188fb34630d"];
+  Node35 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="qqpopulate_array_fcn\l_ptrQQ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a4ad6fa1bb94fc1c3ac2dc30925106081"];
+  Node35 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="qqqupload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a109761d7f84a96b5606e507bace276b5"];
+  Node35 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="qqqbitmapreset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__app_8c.html#a5688fceaed93ba591e78ee15ccb0187f"];
+}

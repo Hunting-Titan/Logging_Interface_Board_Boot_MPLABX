@@ -1,0 +1,31 @@
+digraph "execute_switches"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node608 [label="execute_switches",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node608 -> Node609 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node609 [label="PLIB_PORTS_PinSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#ae4c8fd3b4e721cc80950df1d49cada58"];
+  Node608 -> Node610 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node610 [label="PLIB_PORTS_PinClear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#a119ae9f68294861f5eecb19de9743c43"];
+  Node608 -> Node611 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node611 [label="SET_WL_SPS_IOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#aaabccf77a49dcc7bd57a68e0550a7c57"];
+  Node608 -> Node612 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node612 [label="PLIB_PORTS_PinGet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#acef95f2687d395688e38a6593d8b8228"];
+  Node608 -> Node613 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node613 [label="Set_Status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#a0fed74420f2d99f6d100fd94494b38f6"];
+  Node608 -> Node614 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node614 [label="Clear_Status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#a3a9ea2a910b701830e828a9e6d53b636"];
+  Node608 -> Node615 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node615 [label="GetDepthStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#ada604f3e1eefc9dd017c1198688b018b"];
+  Node608 -> Node616 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node616 [label="PLIB_PORTS_PinToggle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#a39132610c0ff445fdec6ccdce403fe8b"];
+  Node608 -> Node617 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node617 [label="switches_57zqendz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#ad51832297247c1ed4a8e22659b160627"];
+  Node617 -> Node618 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node618 [label="qqpopulate_array_fcn\l_ptrQQ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#a4ad6fa1bb94fc1c3ac2dc30925106081"];
+  Node617 -> Node619 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node619 [label="qqqupload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#a109761d7f84a96b5606e507bace276b5"];
+  Node617 -> Node620 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node620 [label="qqqbitmapreset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__switches_8c.html#a5688fceaed93ba591e78ee15ccb0187f"];
+}

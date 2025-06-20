@@ -1,0 +1,27 @@
+digraph "Execute_Auto_Protocol_A"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node729 [label="Execute_Auto_Protocol_A",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node729 -> Node730 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node730 [label="Set_WL_SPS_CurrentLimit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#abf6d33578a8005b24b953ed17dc1e09e"];
+  Node729 -> Node731 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node731 [label="Prepare_Return_A",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a0e9c19489da0b2f35029d786831aba98"];
+  Node729 -> Node732 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node732 [label="Set_HVPS_Ramp_Rate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#ac70e0608944d827ba3108771992e2dc7"];
+  Node729 -> Node733 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node733 [label="PLIB_PORTS_PinSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#ae4c8fd3b4e721cc80950df1d49cada58"];
+  Node729 -> Node734 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node734 [label="PLIB_PORTS_PinClear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a119ae9f68294861f5eecb19de9743c43"];
+  Node729 -> Node735 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node735 [label="Clear_Status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a3a9ea2a910b701830e828a9e6d53b636"];
+  Node729 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node736 [label="commands_65zqendz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#ae5eaf40dc6507a08e90fc7a48ee2fd81"];
+  Node736 -> Node737 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node737 [label="qqpopulate_array_fcn\l_ptrQQ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a4ad6fa1bb94fc1c3ac2dc30925106081"];
+  Node736 -> Node738 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node738 [label="qqqupload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a109761d7f84a96b5606e507bace276b5"];
+  Node736 -> Node739 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node739 [label="qqqbitmapreset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a5688fceaed93ba591e78ee15ccb0187f"];
+}

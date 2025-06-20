@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['nvm_5ffs_5fcheck_5feof_0',['NVM_FS_CHECK_EOF',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7a49fcc42771c30fec319f35aedfce0b38',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5fdo_5fanother_5ffile_5fseek_1',['NVM_FS_DO_ANOTHER_FILE_SEEK',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7aa525747fab40ae4001b27cb09a68c5c4',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5fdo_5ffile_5fseek_2',['NVM_FS_DO_FILE_SEEK',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7aa3f48738effe4144f72f0a903342b56d',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5ferror_3',['NVM_FS_ERROR',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7aa1ff1248f2c323d988bc74185e8a93ae',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5ffinal_5ffile_5fseek_4',['NVM_FS_FINAL_FILE_SEEK',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7a750632767bca9467889f4c6af7039576',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5fidle_5',['NVM_FS_IDLE',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7adfdb5e3b64724a0eac2a07791683ab79',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5fmount_5fdisk_6',['NVM_FS_MOUNT_DISK',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7ab2271e73b8492105f29450ad85d0cfde',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5fopen_5ffile_7',['NVM_FS_OPEN_FILE',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7a947401a106ded2e78b8df531716311c8',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5fread_5ffile_5fsize_8',['NVM_FS_READ_FILE_SIZE',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7a6b72e08911b6d376649d28363b41318d',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5fread_5ffile_5fstat_9',['NVM_FS_READ_FILE_STAT',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7a0a855c5f6789473b709597282b35523d',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5fread_5foriginal_5ffile_5fcontent_10',['NVM_FS_READ_ORIGINAL_FILE_CONTENT',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7ae8b6c274df064e17a2a6d876adf64d3d',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5fread_5fverify_5ffile_11',['NVM_FS_READ_VERIFY_FILE',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7aad3868c8c171e69892e85c2c5b414643',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5fseek_5fto_5fstart_12',['NVM_FS_SEEK_TO_START',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7a4b36d265e6744e1917ec205269e95aeb',1,'nvm_fs.h']]],
+  ['nvm_5ffs_5fwrite_5fto_5ffile_13',['NVM_FS_WRITE_TO_FILE',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7a7e378b2bbb6034a1e3415404970f55f8',1,'nvm_fs.h']]],
+  ['nvs_5ffs_5fclose_14',['NVS_FS_CLOSE',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7af04f07b0f2ba69ed113ad5f848173176',1,'nvm_fs.h']]],
+  ['nvs_5ffs_5funmount_15',['NVS_FS_UNMOUNT',['../nvm__fs_8h.html#a0acc4b5fa44a5e649fa71c6994cf7dc7a5b3a8759da1d1da02190aa651054a018',1,'nvm_fs.h']]]
+];

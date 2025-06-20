@@ -1,0 +1,27 @@
+digraph "COMM_Tasks"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10 [label="COMM_Tasks",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ValidateComm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$commmodule_8c.html#a764430fc16209afb9056738eb23b69c5"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Fifo_Get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fifo_8c.html#a559d3b106856214e0f068c4c8c186055"];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Valid_Command",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$commands_8c.html#adf874595e4b75f7e8cd79080a70161aa"];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Set_Status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a0fed74420f2d99f6d100fd94494b38f6"];
+  Node11 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Prepare_Return_A",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a0e9c19489da0b2f35029d786831aba98"];
+  Node11 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Clear_Status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commands_8c.html#a3a9ea2a910b701830e828a9e6d53b636"];
+  Node10 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="commmodule_53zqendz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commmodule_8c.html#a96db1778e1f6c4e3f62a377955563ded"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="qqpopulate_array_fcn\l_ptrQQ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commmodule_8c.html#a4ad6fa1bb94fc1c3ac2dc30925106081"];
+  Node17 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="qqqupload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commmodule_8c.html#a109761d7f84a96b5606e507bace276b5"];
+  Node17 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="qqqbitmapreset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__commmodule_8c.html#a5688fceaed93ba591e78ee15ccb0187f"];
+}

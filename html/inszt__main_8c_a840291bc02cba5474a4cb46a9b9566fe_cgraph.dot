@@ -1,0 +1,23 @@
+digraph "main"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node266 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node266 -> Node267 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 [label="TEST_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a2186c6908f2d488a4daa437210e56675"];
+  Node266 -> Node268 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node268 [label="APP_Initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a59b305aa4f4287d45cbe428f533f84b2"];
+  Node266 -> Node269 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node269 [label="APP_Tasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a859aee46b660cfee47cfd45ce08f6862"];
+  Node266 -> Node270 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node270 [label="main_68zqzqzq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a3d9384d3266380d929000a2f20278fea"];
+  Node270 -> Node271 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node271 [label="main_68zqendz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#aa3adbe0d58202d0747d37f8033c85249"];
+  Node271 -> Node272 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node272 [label="upload_execution_history",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a83c5eab5324f9627c1a0d84e5c949813"];
+  Node272 -> Node273 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node273 [label="qqqupload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#a109761d7f84a96b5606e507bace276b5"];
+  Node272 -> Node274 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node274 [label="qqqtotalupload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__main_8c.html#aed4c23fb656ecae455f8fa8ed6d9389a"];
+}

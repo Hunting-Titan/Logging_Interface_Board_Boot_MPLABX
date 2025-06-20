@@ -1,0 +1,11 @@
+digraph "DRV_TMR1_Stop"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node262 [label="DRV_TMR1_Stop",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node262 -> Node263 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node263 [label="DRV_TMR1_Close",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__wl__sps_8c.html#a6a5cde4bb2a1f040394eff6085aa1d59"];
+  Node262 -> Node264 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node264 [label="DRV_TMR1_DeInitialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$inszt__wl__sps_8c.html#abf7739f5097a1ceff5268ea070a35c9e"];
+}

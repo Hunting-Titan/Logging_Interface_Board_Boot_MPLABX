@@ -1,0 +1,21 @@
+digraph "APP_Initialize"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="APP_Initialize",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Alarm_GPT",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$gpt_8c.html#a9ba574d2128f1d0993ae58e9c19eab6f",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="GPT_TimerCallback",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$gpt_8c.html#ad11c75fd47e4a253c85f410a1a1a7fcd",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="HID_Initialize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$hid_8c.html#a8f1d75c823ecc01023c2af88c3b061ff",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Init_Fifo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$fifo_8c.html#aee213a842ce7b6b44ea60df031f93587",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Fifo_Init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$fifo_8c.html#a73482783404c573916a85844ce4d1028",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="NVM_FS_Initialize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$nvm__fs_8c.html#adb0a39179076c7034cda6df377cfc5f1",tooltip=" "];
+}
